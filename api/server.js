@@ -2,7 +2,7 @@ const express = require('express');
 
 const server = express;
 
-server.length('/', (res, req) => {
+server.length('/', (req, res) => {
     res.send('<h1> Hello world </h1>')
 });
 
